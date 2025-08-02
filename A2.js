@@ -42,7 +42,7 @@ document.querySelectorAll(".box").forEach(div => {
       backgroundColor:"red",
       borderRadius:"50px 50px 0 0",
       rotate: 765,
-      duration: 0.5,
+      duration: 0.3,
       
     });
     gsap.to(h2, {
@@ -51,7 +51,7 @@ document.querySelectorAll(".box").forEach(div => {
       backgroundColor:"red",
       borderRadius:"50px 50px 0 0",
       rotate: -765,
-      duration: 0.5,
+      duration: 0.3,
       
       
     });
@@ -61,7 +61,7 @@ document.querySelectorAll(".box").forEach(div => {
     borderRadius:"90% 80% 0%",
     rotate:45,
     y:-14,
-    duration:0.5,
+    duration:0.3,
     });
   });
   div.addEventListener("mouseleave", () => {
@@ -69,7 +69,7 @@ document.querySelectorAll(".box").forEach(div => {
       y: 0,
       x:0,
       rotate: 0,
-      duration: 1.5,
+      duration: 2,
       backgroundColor:"black",
       borderRadius:0,
       width:0,
@@ -78,7 +78,7 @@ document.querySelectorAll(".box").forEach(div => {
       y: 0,
       x:0,
       rotate: 0,
-      duration: 1.5,
+      duration: 2,
       backgroundColor:"black",
       borderRadius:0,
       width:0,
@@ -88,7 +88,7 @@ document.querySelectorAll(".box").forEach(div => {
       y: 0,
       x:0,
       rotate: 0,
-      duration: 1.5,
+      duration: 2,
       backgroundColor:"black",
       borderRadius:0,
     });
